@@ -70,3 +70,9 @@ main {
 .knapp:hover {
     background-color: #6f0c0c;
 }
+
+/* Boxmodellen för en article, från vänster till höger (horisontellt):
+
+margin 0 | border 1 | padding 16 | content 1034 | padding 16 | border 1 | margin 0
+
+*/
