@@ -51,3 +51,11 @@ article img {
     height: auto;
     border-radius: 4px;
 }
+main {
+    max-width: 1100px;
+    padding: 16px;
+    /* Sätter top/bottom margin till 0 och vänster/höger margin till auto.
+    auto gör att elementet får sitt värde automatiskt (lika mycket till vänster som till höger) baserat på förälderns bredd.
+    Effekten blir att elementet centreras horisontellt. */
+    margin: 0 auto;
+}
