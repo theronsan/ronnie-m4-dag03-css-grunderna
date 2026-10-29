@@ -59,3 +59,14 @@ main {
     Effekten blir att elementet centreras horisontellt. */
     margin: 0 auto;
 }
+.knapp {
+    display: inline-block;
+    background-color: #8c1010;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.knapp:hover {
+    background-color: #6f0c0c;
+}
