@@ -8,6 +8,14 @@
    TODO 7: .knapp
 */
 
+/* Padding och border inkluderas i elementets totala storlek */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     background-color: #fffaf3;
 }
